@@ -1,1 +1,1 @@
-# odooEE
+# odoo 12 ee
