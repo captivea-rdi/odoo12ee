@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+<t t-extend="voip.PhonecallDetails">
+  <t t-jquery=".o_dial_keypad_button_container" t-operation="append">
+    <div class="o_row">
+				<div class="o_dial_keypad_button_small text-center">
+					 <a href="#" class="o_dial_to_sales">
+						 <i style="padding-right:4px" class="fa fa-usd fa-2x" aria-label="Sales"></i><p class="feature text-center">Sales</p>
+					 </a>
+				</div>
+        <div class="o_dial_keypad_button_small text-center">
+           <a href="#" class="o_dial_to_quotes">
+             <i style="padding-right:4px" class="fa fa-quote-right fa-2x" aria-label="Quotes"></i><p class="feature text-center">Quotes</p>
+           </a>
+        </div>
+        <div class="o_dial_keypad_button_small text-center">
+           <a href="#" class="o_dial_to_opps">
+             <i style="padding-right:4px" class="fa fa-lightbulb-o fa-2x" aria-label="Opportunities"></i><p class="feature text-center">Opportunities</p>
+           </a>
+        </div>
+			</div>
+  </t>
+</t>
+</templates>

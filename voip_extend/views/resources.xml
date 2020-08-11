@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <template id="voip_override" inherit_id="voip.assets_backend">
+            <xpath expr="." position="inside">
+               <script type="text/javascript" src="/voip_extend/static/src/js/voip_override.js"></script>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>
