@@ -1,7 +1,8 @@
 odoo.define('voip_extend', function (require) {
 "use strict";
 
-var PhonecallDetails = require('voip.phonecall');
+var phoneCall = require('voip.phonecall');
+var PhonecallDetails = phoneCall.PhonecallDetails; 
 
 PhonecallDetails.include({
   "template": "voip.PhonecallDetails",
